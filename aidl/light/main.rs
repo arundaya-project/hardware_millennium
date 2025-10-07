@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Shirayuki39
 // SPDX-License-Identifier: Apache-2.0
 //
-//! This implements the Lights Transsion Service.
+//! This implements the Lights Millennium Service.
 
 use android_hardware_light::aidl::android::hardware::light::ILights::{BnLights, ILights};
 use binder::BinderFeatures;
@@ -11,7 +11,7 @@ use binder::BinderFeatures;
 mod lights;
 use lights::LightsService;
 
-const LOG_TAG: &str = "lights_service_transsion_rust";
+const LOG_TAG: &str = "lights_service_millennium_rust";
 
 use log::LevelFilter;
 

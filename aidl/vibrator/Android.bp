@@ -2,7 +2,7 @@
 // SPDX-License-Identifer: Apache-2.0
 
 cc_library_static {
-    name: "libvibratortranssionimpl",
+    name: "libvibratormillenniumimpl",
     vendor: true,
     shared_libs: [
         "libbase",
@@ -23,10 +23,10 @@ cc_library_static {
 }
 
 cc_binary {
-    name: "android.hardware.vibrator-service.transsion",
+    name: "android.hardware.vibrator-service.millennium",
     relative_install_path: "hw",
-    init_rc: ["vibrator-transsion.rc"],
-    vintf_fragments: ["vibrator-transsion.xml"],
+    init_rc: ["vibrator-millennium.rc"],
+    vintf_fragments: ["vibrator-millennium.xml"],
     vendor: true,
     shared_libs: [
         "libbase",
@@ -34,7 +34,7 @@ cc_binary {
         "android.hardware.vibrator-V2-ndk",
     ],
     static_libs: [
-        "libvibratortranssionimpl",
+        "libvibratormillenniumimpl",
     ],
     srcs: ["main.cpp"],
 }

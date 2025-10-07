@@ -4,7 +4,7 @@
  * SPDX-License-Identifer: Apache-2.0
  */
 
-#define LOG_TAG "vibrator.transsion"
+#define LOG_TAG "vibrator.millennium"
 
 #include "vibrator-impl/Vibrator.h"
 
